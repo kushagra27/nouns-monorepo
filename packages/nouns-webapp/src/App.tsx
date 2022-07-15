@@ -47,7 +47,7 @@ function App() {
       )}
       <BrowserRouter>
         <AvatarProvider
-          provider={chainId === ChainId.Mainnet ? library : undefined}
+          provider={chainId === ChainId.Rinkeby ? library : undefined}
           batchLookups={true}
         >
           <NavBar />
