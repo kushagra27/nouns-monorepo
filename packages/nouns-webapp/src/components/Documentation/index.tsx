@@ -152,6 +152,11 @@ const Documentation = () => {
             </Accordion.Header>
             <Accordion.Body>
               <p>
+              Since 1 Public Noun equals 1 vote in Public Nouns DAO, this creates a continuous risk of 51% attack. To help safeguard the treasury, the founders of Nouns (nounders) started governance with the ability to veto proposals.
+              </p>
+              <p>
+                From Nouns DAO:<br />
+                <i>
                   The proposal veto right was initially envisioned as a temporary solution to the
                   problem of ‘51% attacks’ on the Nouns DAO treasury. While pNounders initially
                   believed that a healthy distribution of Nouns would be sufficient protection for
@@ -159,33 +164,62 @@ const Documentation = () => {
                   general consensus within the pNounders and the wider
                   community that a more robust game-theoretic solution should be implemented before
                   the right is removed.
+                </i>
               </p>
               <p>
+                <i>
                   Consequently, the pNounders anticipates being the steward of the veto power
                   until Public Nouns DAO is ready to implement an alternative, and therefore wishes to
                   clarify the conditions under which it would exercise this power.
+                </i>
               </p>
               <p>
+                <i>
                   The pNounders considers the veto an emergency power that should not be
                   exercised in the normal course of business. The pNounders will veto
                   proposals that introduce non-trivial legal or existential risks to the Public Nouns DAO
                   or the pNounders, including (but not necessarily limited to) proposals
                   that:
+                  </i>
               </p>
               <ul>
-                <li>unequally withdraw the treasury for personal gain</li>
-                <li>bribe voters to facilitate withdraws of the treasury for personal gain</li>
-                <li>
+                <li><i>unequally withdraw the treasury for personal gain</i></li>
+                <li><i>bribe voters to facilitate withdraws of the treasury for personal gain</i></li>
+                <li><i>
                   attempt to alter Public Noun auction cadence for the purpose of maintaining or acquiring
-                  a voting majority
+                  a voting majority</i>
                 </li>
-                <li>make upgrades to critical smart contracts without undergoing an audit</li>
+                <li><i>make upgrades to critical smart contracts without undergoing an audit</i></li>
               </ul>
               <p>
+                <i>
                   There are unfortunately no algorithmic solutions for making these determinations
                   in advance (if there were, the veto would not be required), and proposals must be
                   considered on a case by case basis.
+                </i>
               </p>
+              <p>
+                In the case of Public Nouns, here is a bit more on how the pNounders intend to utilize, and eventually rescind their veto rights. 
+              </p>
+              <p>
+                We plan on only using the veto on:<br />
+                <li>malicious proposals, such as those described above by NounsDAO</li>
+                <li>proposals grossly misaligned with the manifesto of Public Nouns DAO</li>
+                <li>Public Nouns DAO manages the manifesto, and can thus update its intent.</li>
+              </p>
+              <p>Even with a healthy distribution of Public Nouns, this cannot be assured forever, so a 51% attack will always be possible with the current setup of power (Public Nouns) that can be acquired with capital. Our hope is to work with Public Nouns DAO on an acceptable solution amongst the tradeoffs, and when they feel it is safe to rescind our voting power. Thus, we currently plan on rescinding the veto power when a viable alternative emerges to prevent 51% attack as described above by NounsDAO. Due to our intent of supporting public goods, the pNounders veto may remain desired to help ensure mission delivery. Ultimately, the veto should be removed if there is clear signal from Public Nouns DAO that it is no longer needed to ensure mission.</p>
+              <p>Furthermore, pNounders is not closed off to new membership. As Public Nouns DAO votes in new community/art pairs, the communities should receive a delegate in pNounders group to help steward governance.</p>
+              <p>For transparency, here are the current signers of the pNounders.eth Safe (5/10):</p>
+              <li><a href="https://twitter.com/sminert" target="_blank" rel="noopener noreferrer">@sminert</a></li>
+              <li><a href="https://twitter.com/isaacpatka" target="_blank" rel="noopener noreferrer">@isaacpatka</a></li>
+              <li><a href="https://twitter.com/mZargham" target="_blank" rel="noopener noreferrer">@mZargham</a></li>
+              <li><a href="https://twitter.com/Sim_Pop" target="_blank" rel="noopener noreferrer">@Sim_Pop</a></li>
+              <li><a href="https://twitter.com/notscottmoore" target="_blank" rel="noopener noreferrer">@notscottmoore</a></li>
+              <li><a href="https://twitter.com/0xd2_eth" target="_blank" rel="noopener noreferrer">@0xd2_eth</a></li>
+              <li><a href="https://twitter.com/0xJoshuaSL" target="_blank" rel="noopener noreferrer">0xJoshuaSL</a></li>
+              <li><a href="https://twitter.com/auryn_macmillan" target="_blank" rel="noopener noreferrer">@auryn_macmillan</a></li>
+              <li><a href="https://twitter.com/abbey_titcomb" target="_blank" rel="noopener noreferrer">@abbey_titcomb</a></li>
+              <li><a href="https://death.mirror.xyz/" target="_blank" rel="noopener noreferrer">travisWyche</a></li>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4" className={classes.accordionItem}>
