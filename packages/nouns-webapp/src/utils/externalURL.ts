@@ -2,7 +2,6 @@ export enum ExternalURL {
   docs,
   discord,
   twitter,
-  discourse,
 }
 
 export const externalURL = (externalURL: ExternalURL) => {
@@ -10,10 +9,8 @@ export const externalURL = (externalURL: ExternalURL) => {
     case ExternalURL.docs:
       return 'https://docs.publicnouns.wtf';
     case ExternalURL.discord:
-      return 'https://discord.gg/vnp6BEMf';
+      return 'https://discord.gg/Fc7uTwHqJK';
     case ExternalURL.twitter:
       return 'https://twitter.com/PublicNouns';
-    case ExternalURL.discourse:
-      return 'http://pnouns.discourse.group/';
   }
 };
