@@ -8,7 +8,7 @@ export const resolveNounContractAddress = (address: string) => {
       return 'Public Nouns Auction House Proxy';
     case config.addresses.nounsDaoExecutor.toLowerCase():
       return 'Public Nouns DAO Treasury';
-    case config.addresses.ogNounsExecutor?.toLowerCase():
+    case config.addresses?.ogNounsExecutor?.toLowerCase():
       return 'Nouns DAO Treasury';
     default:
       return undefined;
