@@ -70,7 +70,7 @@ const ProfileActivityFeed: React.FC<ProfileActivityFeedProps> = props => {
         </div>
         {data && data.length === 0 ? (
           <div className={classes.nullStateCopy}>
-            <Trans>This Noun has no activity, since it was just created. Check back soon!</Trans>
+            <Trans>This Public Noun has no activity, since it was just created. Check back soon!</Trans>
           </div>
         ) : (
           <>
